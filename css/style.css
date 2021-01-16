@@ -62,11 +62,6 @@ body {
 a {
   text-decoration: none;
 }
-p {
-  size: 16px;
-  line-height: 24px; 
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -184,14 +179,17 @@ img {
 }
 .social_button {
   background-color: var(--very-light-gray);
+  background-size: 821px 81px;
   border-radius: 50%;
 }
 .social_button:hover {
   background-color: var(--darker-red);
+  background-size: 81px 81px;
   border-radius: 50%;
 }
 .social_button:active {
     background-color: var(--darkest-red);
+    background-size: 81px 81px;
     border-radius: 50%;  
 }
 .index_write-button {
