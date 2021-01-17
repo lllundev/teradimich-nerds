@@ -1,0 +1,202 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto.woff2') format('woff2'),
+       url('../fonts/roboto.woff') format('woff');
+  font-display: swap
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/robotomedium.woff2') format('woff2'),
+       url('../fonts/robotomedium.woff') format('woff');
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/robotobold.woff2') format('woff2'),
+       url('../fonts/robotobold.woff') format('woff');
+}
+
+:root {
+  --black: #000000;
+  --dark: #283136;
+  --very-light-gray: #E1E1E1;
+  --very-dark-gray: #4D4D4D;
+  --red: #FB565A;
+  --darker-red: #E74246;
+  --darkest-red: #D7373B;
+  --green: #00CA74;
+  --darker-green: #00BC6C;
+  --darkest-green: #00AA62;
+  --yellow:#EFC84A;
+  --darker-yellow: #EAB534;
+  --darkest-yellow:#E5A722;
+  --soft-yellow: #EFC849;
+  --white: #FFFFFF;
+  --gray: #EEEEEE;
+  --darker-gray: #DFDFDF;
+  --darkest-gray: #D5D5D5;
+}
+
+body {
+  min-width: 1158px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--dark);
+  text-transform: uppercase;
+  background-color: var(--white);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.header_navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--black);
+  background-color: transparent;
+}
+
+.header_container {
+  background-color: var(--light-gray);
+}
+.header_list {
+  list-style: none;
+}
+.site-navigation-current a:not([href]) {
+  background-color: var(--light-gray);
+}
+
+.header_list a,
+.header_basket a {
+  color: var(--black);
+}
+
+.header_list a:hover,
+.header_list a:focus,
+.header_basket a:hover,
+.header_basket a:focus {
+  background-color: var(--dark);
+}
+.services_list {
+  list-style: none;
+}
+.services_item {
+  text-align: center;
+}
+.services_item h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+.services_order-button {
+  font: inherit;
+  text-align: center;
+  width: 160px;
+  height: 50px;
+  border-radius: 3px;
+  color: var(--white);
+} 
+.services_button-sites {
+  background: var(--red);
+}
+.services_button-sites:hover {
+  background: var(--darker-red);
+}
+.services_button-sites:active {
+  background: var(--darkest-red);
+}
+.services_button-apps {
+  background: var(--green);
+}
+.services_button-apps:hover {
+  background: var(--darker-green);
+}
+.services_button-apps:active {
+  background: var(--darkest-green);
+}
+.services_button-presentations {
+  background: var(--yellow);
+}
+.services_button-presentationss:hover {
+  background: var(--darker-yellow);
+}
+.services_button-presentations:active {
+  background: var(--darkest-yellow);
+}
+.proposal_block p:first-child {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+}
+.proposal_aside {
+  text-align: right;
+}
+.proposal_aside p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.proposal_term {
+  font-size: 45px;
+  line-height: 64px;
+}
+.proposal_definition {
+  font-size: 16px;
+  line-height: 18px;
+}
+.proposal_list {
+  list-style: none;
+}
+.partners_list {
+  list-style: none;
+  border: 7px solid var(--basic-white);
+}
+.social h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+}
+.social p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 226px;
+}
+.social_button {
+  background-color: var(--very-light-gray);
+  background-size: 81px 81px;
+  border-radius: 50%;
+}
+.social_button:hover {
+  background-color: var(--darker-red);
+  background-size: 81px 81px;
+  border-radius: 50%;
+}
+.social_button:active {
+    background-color: var(--darkest-red);
+    background-size: 81px 81px;
+    border-radius: 50%;  
+}
+.index_write-button {
+  background: var(--red);
+  width: 219px;
+  height: 50px;
+}
+.index_phone {
+  color: inherit;
+}
