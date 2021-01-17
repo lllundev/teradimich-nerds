@@ -179,7 +179,7 @@ img {
 }
 .social_button {
   background-color: var(--very-light-gray);
-  background-size: 821px 81px;
+  background-size: 81px 81px;
   border-radius: 50%;
 }
 .social_button:hover {
